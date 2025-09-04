@@ -1,0 +1,97 @@
+//table data
+export const transactions = [{
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+    {
+        date: "28/02/24 12:41AM",
+        irn: "YEURB4FS404G",
+        mode: "IMPS",
+        utr: "407813414008",
+        amount: "2,59,25,833.00",
+        status: "Success",
+    },
+];
+
+export const balanceData = [
+    { label: "Payout", amount: "₹9,90,839.78", count: 29379 },
+    { label: "Initiated", amount: "₹9,90,839.78", count: 29379 },
+    { label: "Pending", amount: "₹9,90,839.78", count: 29379 },
+    { label: "Processing", amount: "₹9,90,839.78", count: 29379 },
+    { label: "Failed", amount: "₹9,90,839.78", count: 29379 },
+];
+
+export const tableBtn = [
+    { label: "Collection", key: 1 },
+    { label: "Settlement", key: 2 },
+    { label: "Payout", key: 3 },
+    { label: "Deposit", key: 4 },
+];

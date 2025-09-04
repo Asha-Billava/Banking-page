@@ -1,0 +1,199 @@
+@import "tailwindcss";
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+
+/* body {
+  margin: 0;
+
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    right: 0;
+    background-color: #f0f1f4;
+} */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f1f4 0% 0% no-repeat padding-box;
+    overflow-y: hidden;
+}
+
+.MainContainer {
+    display: flex;
+    justify-content: stretch;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    background-color: #edf0f4;
+}
+
+.MainContainer::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 24px;
+    padding: 6px 1.1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.Transfer {
+    border-radius: 10px;
+    padding: 6px 1.1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background: #231f45;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.tabs {
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border: none;
+    background-color: none;
+    background: none;
+}
+
+.Transfer {
+    border: none;
+}
+
+button {
+    border: 0.5px solid #cad1e0;
+}
+
+li {
+    border-radius: 24px;
+}
+
+li:hover {
+    background-color: #231f45;
+    color: white;
+    border-radius: 24px;
+}
+
+.active {
+    background-color: #231f45;
+    color: white;
+}
+
+button:hover {
+    background-color: #231f45;
+    color: white;
+}
+
+.tabs:hover {
+    background-color: none;
+    background: none;
+    color: #5b4eb1;
+}
+
+.IconDiv {
+    height: 2.25rem;
+    width: 2.25rem;
+    font-size: 0.875rem;
+    /* border-width: 0.5px; */
+    border-color: #cad1e0;
+    border-style: solid;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    background-color: white;
+}
+
+button:focus,
+button:focus-visible {
+    /* outline: 4px auto -webkit-focus-ring-color; */
+    outline: none;
+}
+
+@media (prefers-color-scheme: light) {
+     :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #ffffff;
+    }
+}
+
+.table-scroll::-webkit-scrollbar {
+    height: 6px;
+    /* horizontal scrollbar height */
+    width: 6px;
+    /* vertical scrollbar width */
+}
+
+.table-scroll::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    /* light gray track */
+    border-radius: 9999px;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+    background: #c4c4c4;
+    /* scrollbar color */
+    border-radius: 9999px;
+}
+
+.table-scroll::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+    /* slightly darker on hover */
+}
