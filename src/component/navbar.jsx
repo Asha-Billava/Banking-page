@@ -35,9 +35,11 @@ import { Search, BellDot, MoveDown, Calendar, ChevronDown } from "lucide-react";
 export default function Navbar() {
   return (
     <header className="h-[100%] w-auto bg-white rounded-[24px] flex justify-between   py-3 px-4 flex-col md:flex-row gap-2  ">
-      <div className="flex items-center gap-2 text-gray-600">
+      <div className="flex items-center gap-1 text-gray-600">
         <h5 className="text-md font-medium">Connected Banking</h5>
-        <span className="text-[14px] text-gray-400">• Sunday, Mar 04</span>
+        <span className="text-[11px] sm:text-[14px] text-gray-400">
+          • Sunday, Mar 04
+        </span>
       </div>
       <div className="flex flex-col sm:flex-row  justify-stretch gap-3">
         <div className="relative flex  gap-6 justify-between items-center ">
