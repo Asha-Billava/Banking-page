@@ -4,7 +4,7 @@ import company from "../assets/company.png";
 export default function BankInfoCard() {
   return (
     <div className="bg-[#533CD2] text-white  shadow-md p-6 flex flex-col justify-between rounded-[24px] shadow-sm border-none h-[100%]">
-      <div className="flex justify-between items-center flex-col xs:flex-row gap-2">
+      <div className="flex justify-between items-center flex-col sm:flex-row  gap-2">
         {/* <h2 className="text-lg font-semibold">SHIVALIK</h2> */}
         <img
           src={company}
@@ -17,7 +17,7 @@ export default function BankInfoCard() {
       </div>
       <div className="mt-4 text-sm">
         <hr className="border-t-[0.5px] border-[#b4bbcc61]"></hr>
-        <div className="flex justify-between items-center p-2">
+        <div className="flex justify-between  p-2 flex-col sm:flex-row">
           {" "}
           <p>Account Number</p>
           <p className=" mr-1 flex items-center gap-2">
@@ -27,7 +27,7 @@ export default function BankInfoCard() {
         </div>
         <hr className="border-t-[0.5px] border-[#b4bbcc61]"></hr>
 
-        <div className="flex justify-between p-2">
+        <div className="flex justify-between p-2 flex-col sm:flex-row">
           <p>IFSC Code</p>
           <p> AUBL0REMMIT</p>
         </div>

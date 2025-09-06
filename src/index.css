@@ -1,4 +1,10 @@
 @import "tailwindcss";
+@layer utilities {
+    .p-safe {
+        padding-bottom: calc(4 + env(safe-area-inset-bottom));
+    }
+}
+
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -12,37 +18,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-    font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
-}
-
-a:hover {
-    color: #535bf2;
-}
-
-
-/* body {
-  margin: 0;
-
-  min-width: 320px;
-  min-height: 100vh;
-} */
-
 
 /* html,
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    right: 0;
-    background-color: #f0f1f4;
-} */
-
-html,
 body {
     margin: 0;
     padding: 0;
@@ -61,10 +38,45 @@ body {
     overflow-x: hidden !important;
     overflow-y: hidden !important;
     background-color: #edf0f4;
+} */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f1f4 0% 0% no-repeat padding-box;
+    overflow-y: auto;
+    /* ✅ allow scroll */
+}
+
+.MainContainer {
+    display: flex;
+    justify-content: stretch;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* min-height: 100vh; */
+    /* ✅ fill screen */
+    height: auto;
+    opacity: 1;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    /* ✅ allow scroll */
+    background-color: #edf0f4;
 }
 
 .MainContainer::-webkit-scrollbar {
     display: none;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
 }
 
 h1 {

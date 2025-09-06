@@ -22,7 +22,7 @@ export default function BalanceCard({ label, amount, count, key }) {
         <p className="text-xs text-gray-500 text-left mb-1 font-bold">
           {label}
         </p>
-        <div className="flex items-center justify-between gap-2 sm:flex-row">
+        <div className="flex items-start justify-between gap-2 flex-col sm:flex-row sm:items-center">
           <p className="text-base font-semibold">{amount}</p>
           <p className="text-xs text-green-600">({count})</p>
         </div>

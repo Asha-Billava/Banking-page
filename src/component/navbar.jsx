@@ -48,7 +48,7 @@ export default function Navbar() {
             className="pl-[40px] pr-[18px] py-[8px] text-sm border-[0.5px] border-[#CAD1E0] rounded-[24px]  w-[100%] focus:ring-indigo-500  focus:outline-none"
           />
         </div>
-        <div className="flex justify-stretch gap-3">
+        <div className="flex justify-stretch gap-3 ">
           <div className="relative flex gap-6 justify-between items-center">
             <Calendar className="absolute top-2 left-[12px] w-[20px] h-[20px] text-black-400" />
             <select

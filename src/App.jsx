@@ -14,13 +14,13 @@ import { transactions, balanceData } from "./assets/jsonData";
 function App() {
   return (
     <>
-      <div className="MainContainer">
+      <div className="MainContainer p-safe min-h-screen flex">
         {/* Sidebar */}
         <aside className="text-white p-4">
           <SideBar />
         </aside>
         {/* Main Content */}
-        <main className="flex flex-col min-h-screen h-[100vh] w-[100%] overflow-y-auto">
+        <main className="flex-1 flex-col min-h-screen  overflow-y-auto">
           {/* Navbar */}
           <header className="p-4 pl-0 w-[100%]">
             <Navbar />
